@@ -1,0 +1,320 @@
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poppins light';
+    src: url(font/Poppins-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'Anton';
+    src: url(font/Anton-Regular.ttf);
+}
+.body{
+    font-family: 'Poppins';
+}
+.top-bar{
+    background-color: rgb(26, 190, 26) ;
+    text-align: center;
+    padding: 1%;
+    color: white;
+    font-size: 150%;
+
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.nav-links ul{
+    display: flex;
+    gap: 40%;
+}
+.navigation-bar ul{
+    list-style-type: none;
+}
+.navigation-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+.content-on-image{
+    text-align: center;
+}
+.content-on-image h2{
+    color: white;
+    font-size: 500%;
+}
+.content-on-image p{
+    color: whitesmoke;
+    font-size: 200%;
+}
+.content-on-image button{
+    padding: 1%;
+    width: 5cm;
+    color: rgb(182, 157, 157);
+    background-color: rgb(240, 233, 233);
+    border: none;
+    border-radius: 8px;
+    font-size: 120%;
+}
+.navigation-bar{
+    background-image: url(images/throw-blanket.jpeg);
+    height: 90vh;
+}
+.nav-links p{
+    font-size: 200%;
+    margin-left: 5%;
+}
+.nav-links i{
+    margin-right: 5%; margin-top: 1%;
+}
+.hr-line{
+    position: relative;
+    max-width: 100%;
+    margin: 30px auto;
+    height: 3px;
+    background-color: black;
+}
+#hr-line-text{
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Poppins light';
+}
+.learn-more-btn button{
+    padding: 2.5%;
+    width: 6cm;
+    border-radius: 40px;
+    font-size: 150%;
+    border: none;
+    background-color: rgb(226, 209, 209);
+}
+#know-more-btn{
+    padding: 2.5%;
+    width: 6cm;
+    border-radius: 40px;
+    font-size: 150%;
+    background-color: rgb(70, 187, 70);
+    color: white;
+    border: none;
+}
+#screen-printing{
+    color: rgb(56, 167, 56);
+    font-size: 140%;
+    
+}
+.more-about-us h2{
+    font-size: 300%;
+}
+.more-about-us p{
+    color: gray;
+    font-size: 200%;
+}
+.sofa img{
+    height: 15cm; width: 15cm;
+    border-radius: 10px;
+}
+.timeless-artistry{
+   margin-left: 10em;
+    display: flex;
+    gap: 10em;
+}
+.quality svg{
+    height: 5em;
+}
+.timely-shipping svg{
+    height: 5em;
+}
+.sustainable-artistry svg{
+    height: 5em;
+}
+.assuarance{
+    display: flex;
+    gap: 20em;
+    margin-top: 10em;
+    background-color: rgb(224, 240, 245);
+    padding: 3em;
+}
+.warranty-protection svg{
+height: 5em;
+}
+.quality{
+    display: flex;
+}
+.quality h3{
+    font-size: 150%;
+}
+.quality p{
+    font-size: 150%;
+    color: grey;
+}
+.screen-printing-techniques{
+    text-align: center;
+    margin-top: 10em;
+}
+.screen-printing-techniques h2{
+    font-size: 400%;
+}
+.screen-printing-techniques p{
+    color: grey;
+    font-size: 200%;
+}
+.printing-instruments img{
+    height: 40em; width: 40em;
+    border-radius: 3em;
+}
+.printing-instruments{
+    display: flex;
+    gap: 10em;
+}
+.printing-instruments h2{
+    font-size: 250%;
+}
+.printing-instruments p{
+    color: grey;
+    font-size: 150%;
+}
+.aditya img{
+    height: 10em; width: 10em;
+}
+.garment-industry{
+    display: flex;
+    gap: 40em;
+    margin-top: 10em;
+}
+.aditya{
+    display: flex;
+}
+.aditya h3{
+    font-size: 150%;
+}
+.aditya p{
+    color: grey;
+}
+#grey-couch img{
+    height: 12cm; width: 12cm;
+    border-radius: 1em;
+}
+.reviews h4{ 
+    font-size: 200%;
+}
+.reviews p{
+    font-size: 150%;
+    color: grey;
+    line-height: 2em;
+}
+.reviews i{
+    color: #3E3E3E;
+}
+.five-star{
+    display: flex;
+    margin-top: 10em;
+    gap: 5em;
+    margin-left: 10em;
+}
+.brands img{
+    height: 10em; width: 10em;
+}
+.brands svg{
+    height: 10em; width: 10em;
+}
+.myntra{
+    display: flex;
+}
+.myntra p{
+    font-size: 150%;
+}
+.brands{
+    display: flex;
+    margin-top: 10em;
+    gap: 12em;
+}
+.square{
+    position: relative;
+    border: solid 2px black;
+    height: 1.5cm; width: 4cm;
+    margin-left: -22em;
+}
+#markalar{
+    font-size: 130%;
+}
+#converse{
+    font-size: 190%;
+    font-family: 'Anton';
+}
+.sample-prints img{
+    height: 15cm; width: 15cm;
+    border-radius: 3em;
+    margin-top: 10em;
+    margin-left: 5em;
+}
+#headscarf{
+    width: 100%; height: 20cm;
+    border-radius: 3em;
+}
+.contact{
+    display: flex;
+}
+.contact-us{
+   background-color: white; width: 10cm;
+    position: absolute;
+    overflow: visible;
+    margin-top: 10em; margin-left: 10em;
+    border-radius: 5em;
+    padding: 5em;
+}
+.contact-us h2{
+    font-size: 300%;
+}
+.contact-us h3{
+    font-size: 150%;
+}
+.contact-us p{
+    color: gray;
+}
+#rp-logo{
+    height: 20em; width: 20em;
+}
+.footer{
+    display: flex;
+    margin-top: 10em;
+    gap: 15em;
+    color: white;
+}
+.footer-nav a{
+    text-decoration: none;
+    font-size: 150%;
+    color: white;
+}
+.footer-nav ul{
+    list-style-type: none;
+}
+.footer h4{
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.hr-lines{
+    position: relative;
+    max-width: 100%;
+    margin: 30px auto;
+    height: 1px;
+    background-color: black;
+}
+#copyright{
+    text-align: center;
+    font-size: 150%;
+    color: white;
+}
+.footers{
+    background-color: rgb(32, 32, 48);
+    padding-bottom: 2em;
+}
+.footer img{
+    height: 10em; width: 10em;
+    margin-left: 2em; margin-top: 2em;
+    border-radius: 2em;
+}
+.footer h4{
+    color: white;
+}
