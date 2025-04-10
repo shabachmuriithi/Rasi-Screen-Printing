@@ -1,4 +1,67 @@
+@media screen and (max-width: 600px) {
+     
+     
+     .nav-links{
+        flex-direction: row;
+       
+       
+     }
+     .nav-links{
+        flex-wrap: wrap;
+     }
+     .content-on-image{
+        text-align: center;
+     }
+     .content-on-image{
+        font-size: 70%;
+     }
+     
 
+     .timeless-artistry{
+        flex-wrap: wrap;
+      
+        margin-left: 0;
+        text-align: center;
+        font-size: 100%;
+        
+     }
+    
+     .assuarance{
+        flex-wrap: wrap;
+     }
+     .screen-printing-techniques{
+        font-size: 70%;
+        text-align: center;
+        margin-bottom: 5em;
+     }
+     .printing-instruments{
+        flex-wrap: wrap;
+     }
+     .garment-industry{
+        flex-wrap: wrap;
+        gap: 0;
+     }
+     .five-star{
+        flex-wrap: wrap;
+        
+     }
+     .aditya img{
+        width: 10%;
+     }
+     .brands{
+        flex-wrap: wrap;
+     }
+     .footer{
+        flex-wrap: wrap;
+        width: 10%;
+     }
+     
+     
+    
+
+
+      
+    }
 @font-face {
     font-family: 'Poppins';
     src: url(font/Poppins-Medium.ttf);
@@ -317,4 +380,16 @@ height: 5em;
 }
 .footer h4{
     color: white;
+}
+.reach-us{
+   padding: 1em;
+    gap: 2em;
+    height: 1em;
+}
+#account{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+.mail span{
+    margin-left: 1em;
 }
